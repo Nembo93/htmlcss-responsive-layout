@@ -1,0 +1,146 @@
+/* RESET */
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* COMMONS */
+.flex{
+    display: flex;
+}
+.justify{
+    justify-content: space-between;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* padding: 20px 20px; */
+    margin: auto;
+}
+section{
+    margin: 20px 0;
+}
+/* VRIABILI */
+
+
+/* MOBILE LAYOUT */
+/* HEADER */
+header{
+    background-color: rgb(0, 132, 253);
+    padding: 20px 0px;
+}
+.menu{
+    display: none;
+}
+
+/* MAIN */
+/* Highlights */
+.highlights .col{
+    max-width: 100%;
+    background-color: rgb(173, 211, 244);
+}
+
+/* Strategies */
+.strategies{
+    background-color: rgb(151, 146, 228);
+}
+.strategies .col:first-child{
+    background-color: rgb(151, 146, 228); 
+}
+.strategies .col:last-child{
+    background-color: white;
+}
+
+/* Testimonials */
+.testimonials .col{
+    background-color: rgb(151, 146, 228);
+}
+
+/* Benefits */
+.benefits{
+    background-color: rgb(151, 146, 228);
+}
+.benefits .col{
+    background-color: white;
+    max-width: 100%;
+}
+
+/* About us */
+.aboutus .col{
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+/* TABLET LAYOUT */
+@media screen and (min-width: 768px) {
+    /* Main - Highlights */
+    .highlights .col{
+        max-width: calc(100% / 3);
+    }
+    .highlights .col:first-child{
+        max-width: calc(100% / 3 * 2);
+    }
+
+    /* Strategies */
+
+    /* Benefits */
+    .benefits .col{
+        max-width: calc(100% / 2);
+    }
+
+    /* About us */
+    .aboutus .col{
+        max-width: 50%;
+    }
+}
+
+
+
+/* DESKTOP LAYOUT */
+@media screen and (min-width: 992px) {
+    .row{
+        max-width: 60%;
+    }
+    /* Header - Nav */
+    .hamburger{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+
+    /* Strategie */
+    .strategies .col{
+        max-width: calc(100% / 2);
+    }
+     /* Benefits */
+     .benefits .col{
+        max-width: calc(100% / 3);
+    }
+    /* About us */
+    .aboutus .col{
+        max-width: 50%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* background-color: rgb(173, 211, 244); */
