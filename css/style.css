@@ -6,6 +6,7 @@ body{
 }
 
 /* COMMONS */
+/* Box */
 .flex{
     display: flex;
 }
@@ -16,12 +17,23 @@ body{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    /* padding: 20px 20px; */
+    padding: 20px 20px;
     margin: auto;
+}
+.col{
+    border-radius: 2rem;
 }
 section{
     margin: 20px 0;
 }
+/* Buttons */
+.button{
+    border: 1px solid black;
+    border-radius: 10%;
+}
+
+
+
 /* VRIABILI */
 
 
@@ -38,8 +50,13 @@ header{
 /* MAIN */
 /* Highlights */
 .highlights .col{
-    max-width: 100%;
     background-color: rgb(173, 211, 244);
+}
+.demo-app div{
+    max-width: calc(100% / 2);
+}
+.demo-app div img{
+    max-width: 100%;
 }
 
 /* Strategies */
@@ -90,6 +107,7 @@ header{
         max-width: calc(100% / 3 * 2);
     }
 
+
     /* Strategies */
 
     /* Benefits */
@@ -118,9 +136,14 @@ header{
         display: block;
     }
 
+    /* Highlights */
+    .demo-app{
+        display: flex;
+    }
+
     /* Strategie */
     .strategies .col{
-        max-width: calc(100% / 2);
+        max-width: calc(100% / 2)
     }
      /* Benefits */
      .benefits .col{
