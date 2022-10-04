@@ -104,12 +104,27 @@ nav .hamburger{
 /* Strategies */
 .strategies{
     background-color: rgb(151, 146, 228);
+    text-align: center;
 }
+.strategies .col img{
+    max-width: 100%;
+}
+
 .strategies .col:first-child{
     background-color: rgb(151, 146, 228); 
+    color: white;
 }
 .strategies .col:last-child{
     background-color: white;
+}
+.strategies-button{
+    border-radius: 50%;
+    padding: 1.25rem;
+    background-color: rgb(151, 146, 228);
+}
+.strategies-button i{
+    font-size: 1.875rem;
+    vertical-align: middle;
 }
 
 /* Testimonials */
@@ -207,6 +222,9 @@ nav .hamburger{
     /* Strategie */
     .strategies .col{
         max-width: calc(100% / 2 - 2.5rem)
+    }
+    .strategies .col:last-child{
+        max-height: 70%;
     }
      /* Benefits */
      .benefits .col{
