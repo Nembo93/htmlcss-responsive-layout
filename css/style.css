@@ -33,7 +33,14 @@ section{
     border-radius: 1.25rem;
     padding: .625rem 1.25rem;
 }
+a.button{
+    text-decoration: none;
+}
 
+/* TYPOGRAPHY */
+/* .highlights{
+    font-size: 1.5625rem;
+} */
 
 
 /* VRIABILI */
@@ -61,12 +68,37 @@ nav .hamburger{
 /* Highlights */
 .highlights .col{
     background-color: rgb(173, 211, 244);
+    text-align: center;
 }
-.demo-app div{
-    /* max-width: calc(100% / 2); */
+    /* demo-app */
+    .demo-app{
+        padding: 0;
+    }
+    .demo-app div:last-child{
+        margin: 0;
+    }
+.demo-app div .button{
+    background-color: rgb(0, 132, 253);
+}
+.demo-app > div{
+    margin: .625rem 0;
+    text-align: center;
 }
 .demo-app div img{
-    max-width: 100%;
+    width: 100%;
+    align-items: flex-end;
+    display: block;
+}
+.demo-app div h2, p, a{
+    margin: 3.125rem 0;
+}
+    /* card */
+.highlights-card-small i{
+    font-size: 3.125rem;
+    color: blue;
+}
+.highlights-card-small h3{
+    color: blue;
 }
 
 /* Strategies */
@@ -164,6 +196,12 @@ nav .hamburger{
     /* Highlights */
     .demo-app{
         display: flex;
+    }
+    .demo-app div{
+        width: 50%;
+    }
+    .demo-app img{
+        width: 100%;
     }
 
     /* Strategie */
