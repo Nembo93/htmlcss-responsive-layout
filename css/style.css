@@ -200,6 +200,39 @@ nav .hamburger{
     color: white;
 }
 
+/* Get started */
+.get-started{
+    background-color: rgb(151, 146, 228);
+    text-align: center;
+}
+.get-started span{
+    display: block;
+    color: white;
+}
+.started-text1{
+    font-size: 20px;
+}
+.started-text2{
+    font-size: 30px;
+    font-weight: 600;
+}
+.started-text3{
+    font-size: 60px;
+    font-weight: 900;
+}
+.started-button{
+    background-color: white;
+    font-size: 20px;
+    padding: .625rem 1.25rem;
+    color:rgb(151, 146, 228) ;
+}
+
+/* Footer */
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
 
 
 
