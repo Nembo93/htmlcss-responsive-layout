@@ -147,6 +147,9 @@ nav .hamburger{
 .benefits{
     background-color: rgb(151, 146, 228);
 }
+.benefits h2{
+    text-align: center;
+}
 .benefits .col{
     background-color: white;
     max-width: 100%;
@@ -168,6 +171,35 @@ nav .hamburger{
 .aboutus .col{
     max-width: 100%;
 }
+.aboutus h2{
+    color: rgb(151, 146, 228);
+}
+.aboutus .col img{
+    border-radius: 50%;
+    width: 25rem;
+}
+.about-us-img-box{
+    position: relative;
+}
+.virgolette{
+    font-size: 7.5rem;
+    color: rgb(151, 146, 228);
+    position: absolute;
+    top: 0;
+    right: 40%;
+
+}
+#img-target{
+    display: block;
+    font-size: 1.25rem;
+    color: rgb(151, 146, 228);
+}
+.about-us-button{
+    border-radius: 1.25rem;
+    background-color: rgb(151, 146, 228);
+    color: white;
+}
+
 
 
 
