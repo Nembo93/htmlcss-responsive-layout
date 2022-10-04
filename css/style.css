@@ -38,9 +38,7 @@ a.button{
 }
 
 /* TYPOGRAPHY */
-/* .highlights{
-    font-size: 1.5625rem;
-} */
+
 
 
 /* VRIABILI */
@@ -59,9 +57,11 @@ nav .hamburger{
     font-size: 1.875rem;
     color: white;
 }
-
 .menu{
     display: none;
+}
+.menu-link{
+    margin-right: .625rem;
 }
 
 /* MAIN */
@@ -77,8 +77,13 @@ nav .hamburger{
     .demo-app div:last-child{
         margin: 0;
     }
+    .demo-app h2{
+        color:rgb(0, 132, 253);
+        margin: 1.875rem 1.25rem;
+    }
 .demo-app div .button{
     background-color: rgb(0, 132, 253);
+    margin: 1.875rem 1.25rem;
 }
 .demo-app > div{
     margin: .625rem 0;
@@ -89,16 +94,21 @@ nav .hamburger{
     align-items: flex-end;
     display: block;
 }
-/* .demo-app div h2, p, a{
-    margin: 3.125rem 0;
-} */
+
     /* card */
 .highlights-card-small i{
     font-size: 3.125rem;
-    color: blue;
+    color: rgb(0, 132, 253);
+    margin: 1.875rem 1.25rem;
 }
 .highlights-card-small h3{
-    color: blue;
+    color: rgb(0, 132, 253);
+    margin: 1.875rem 1.25rem;
+}
+.highlights p{
+    font-size: 20px;
+    color: gray;
+    margin: 1.875rem 1.25rem;
 }
 
 /* Strategies */
@@ -108,6 +118,9 @@ nav .hamburger{
 }
 .strategies .col img{
     max-width: 100%;
+}
+.strategies .col h2, p{
+    margin: 1.875rem 1.25rem;
 }
 
 .strategies .col:first-child{
@@ -121,6 +134,7 @@ nav .hamburger{
     border-radius: 50%;
     padding: 1.25rem;
     background-color: rgb(151, 146, 228);
+    margin: 6.25rem 1.25rem;
 }
 .strategies-button i{
     font-size: 1.875rem;
@@ -128,13 +142,36 @@ nav .hamburger{
 }
 
 /* Testimonials */
+.testimonials{
+    text-align: center;
+}
 .testimonials > div{
     text-align: center;
+    max-width: 60%;
+    margin: auto;
+}
+.testimonials h3{
+    margin: 1.875rem 1.25rem;
+    font-weight: 100;
+}
+.testimonials h2{
+    font-size: 1.875rem;
+    margin: 1.875rem 20px;
+    color: rgb(151, 146, 228);
+}
+.testimonials p{
+    font-size: 20px;
+    margin: 1.875rem 1.25rem;
+}
+.testimonials .col p, span{
+    color: white;
 }
 .testimonials .row{
     background-color: rgb(151, 146, 228);
     border-radius: 1.25rem;
+    margin-bottom: 1.875rem;
 }
+
 .testimonials .col{
     text-align: center;
 }
@@ -146,9 +183,11 @@ nav .hamburger{
 /* Benefits */
 .benefits{
     background-color: rgb(151, 146, 228);
+    padding-top: 1.875rem;
 }
 .benefits h2{
     text-align: center;
+    color: white;
 }
 .benefits .col{
     background-color: white;
@@ -173,6 +212,10 @@ nav .hamburger{
 }
 .aboutus h2{
     color: rgb(151, 146, 228);
+    margin: 1.875rem 1.25rem;
+}
+.aboutus p{
+    margin: 1.875rem 1.25rem;
 }
 .aboutus .col img{
     border-radius: 50%;
@@ -193,17 +236,20 @@ nav .hamburger{
     display: block;
     font-size: 1.25rem;
     color: rgb(151, 146, 228);
+    margin: 1.875rem 1.25rem;
 }
 .about-us-button{
     border-radius: 1.25rem;
     background-color: rgb(151, 146, 228);
     color: white;
+    margin: 1.875rem 1.25rem;
 }
 
 /* Get started */
 .get-started{
     background-color: rgb(151, 146, 228);
     text-align: center;
+    padding: 1.875rem 0;
 }
 .get-started span{
     display: block;
@@ -216,15 +262,21 @@ nav .hamburger{
     font-size: 30px;
     font-weight: 600;
 }
+.started-text1, .started-text2, .started-text4, .started-text5, .started-text6{
+    margin: 1.875rem 1.25rem;
+}
 .started-text3{
     font-size: 60px;
     font-weight: 900;
+    margin: 3.125rem 1.25rem;
 }
+
 .started-button{
     background-color: white;
     font-size: 20px;
     padding: .625rem 1.25rem;
     color:rgb(151, 146, 228) ;
+    margin: 1.875rem 1.25rem;
 }
 
 /* Footer */
@@ -232,6 +284,7 @@ footer{
     background-color: black;
     text-align: center;
     color: white;
+    padding: 1.875rem 3.125rem;
 }
 
 
