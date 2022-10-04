@@ -1,5 +1,5 @@
 /* RESET */
-body{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -17,11 +17,13 @@ body{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 20px 20px;
+    padding: 1.25rem 1.25rem;
     margin: auto;
 }
 .col{
     border-radius: 2rem;
+    padding: 1.25rem;
+    margin: 1.25rem;
 }
 section{
     margin: 20px 0;
@@ -53,7 +55,7 @@ header{
     background-color: rgb(173, 211, 244);
 }
 .demo-app div{
-    max-width: calc(100% / 2);
+    /* max-width: calc(100% / 2); */
 }
 .demo-app div img{
     max-width: 100%;
@@ -101,10 +103,10 @@ header{
 @media screen and (min-width: 768px) {
     /* Main - Highlights */
     .highlights .col{
-        max-width: calc(100% / 3);
+        max-width: calc(100% / 3 - 2.5rem);
     }
     .highlights .col:first-child{
-        max-width: calc(100% / 3 * 2);
+        max-width: calc(100% / 3 * 2 - 2.5rem);
     }
 
 
@@ -112,7 +114,7 @@ header{
 
     /* Benefits */
     .benefits .col{
-        max-width: calc(100% / 2);
+        max-width: calc(100% / 2 - 2.5rem);
     }
 
     /* About us */
@@ -143,15 +145,15 @@ header{
 
     /* Strategie */
     .strategies .col{
-        max-width: calc(100% / 2)
+        max-width: calc(100% / 2 - 2.5rem)
     }
      /* Benefits */
      .benefits .col{
-        max-width: calc(100% / 3);
+        max-width: calc(100% / 3 - 2.5rem);
     }
     /* About us */
     .aboutus .col{
-        max-width: 50%;
+        max-width: calc(50% - 2.5rem);
     }
 }
 
