@@ -151,6 +151,18 @@ nav .hamburger{
     background-color: white;
     max-width: 100%;
 }
+.benefits .col .button{
+    background-color: rgb(151, 146, 228);
+    padding: .625rem 2.5rem;
+}
+.benefits .col span{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgb(151, 146, 228);
+}
+.benefits .col h3{
+    color: rgb(151, 146, 228);
+}
 
 /* About us */
 .aboutus .col{
@@ -181,13 +193,12 @@ nav .hamburger{
     /* Testimonials */
     .testimonials .row{
         flex-wrap: nowrap;
+        align-items: center;
     }
-
     /* Benefits */
     .benefits .col{
         max-width: calc(100% / 2 - 2.5rem);
     }
-
     /* About us */
     .aboutus .col{
         max-width: 50%;
