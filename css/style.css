@@ -193,6 +193,9 @@ nav .hamburger{
     background-color: white;
     max-width: 100%;
 }
+.benefits .col h3, span{
+    margin: 1.875rem 1.25rem;
+}
 .benefits .col .button{
     background-color: rgb(151, 146, 228);
     padding: .625rem 2.5rem;
