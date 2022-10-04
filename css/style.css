@@ -30,8 +30,8 @@ section{
 }
 /* Buttons */
 .button{
-    border: 1px solid black;
-    border-radius: 10%;
+    border-radius: 1.25rem;
+    padding: .625rem 1.25rem;
 }
 
 
@@ -45,6 +45,14 @@ header{
     background-color: rgb(0, 132, 253);
     padding: 20px 0px;
 }
+nav{
+    align-items: center;
+}
+nav .hamburger{
+    font-size: 1.875rem;
+    color: white;
+}
+
 .menu{
     display: none;
 }
@@ -136,6 +144,21 @@ header{
     }
     .menu{
         display: block;
+    }
+    nav div{
+        max-width: 30%;
+    }
+    nav .menu{
+        max-width: 70%;
+    }
+    nav a{
+        text-decoration: none;
+        color: white;
+    }
+    nav .menu .button{
+        background-color: white;
+        padding: .3125rem .625rem;
+        color: black;
     }
 
     /* Highlights */
